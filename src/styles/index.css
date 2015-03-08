@@ -1,0 +1,49 @@
+body {
+	font-family: 'Alice', serif;
+	font-size: 40px;
+	background: #ffffea;
+}
+
+header {
+	margin: 3em auto;
+}
+
+.byline {
+	text-indent: 1em;
+}
+
+.byline:before {
+	content: "—";
+}
+
+h1, p {
+	max-width: 60rem;
+	margin: 0 auto;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure.feature img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+figure.collection {
+	text-align: center;
+}
+
+figure.with-text {
+	float: right;
+  background: #fff;
+  border: 2px solid #FFFAB4;
+  padding: 10px;
+}
+
+.chapter {
+	margin-top: 6rem;
+	padding-top: 6rem;
+	border-top: 5px solid #000;
+}
